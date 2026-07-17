@@ -3,23 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minko's DNA Health Report</title>
+    <title>Family DNA Reports</title>
     <style>
-        body { font-family: system-ui, sans-serif; text-align: center; padding: 60px; background: #f8f9fa; }
+        body { font-family: system-ui, sans-serif; text-align: center; padding: 60px; background: #f8f9fa; line-height: 1.6; }
         h1 { color: #1e3a8a; }
+        .report-card { 
+            display: inline-block; margin: 20px; padding: 24px; 
+            background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 280px; text-align: left;
+        }
         .report-link { 
-            display: inline-block; margin-top: 30px; padding: 16px 32px; 
+            display: block; margin-top: 16px; padding: 12px; 
             background: #1e3a8a; color: white; text-decoration: none; 
-            border-radius: 8px; font-size: 1.1rem;
+            border-radius: 8px; text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Minko's DNA Health Report</h1>
-    <p>A personal genetic analysis and narrative.</p>
-    <a href="narrative_Minko.html" class="report-link">Open Full Report</a>
-    <p style="margin-top: 60px; color: #666; font-size: 0.9rem;">
-        Updated: July 2026
-    </p>
+    <h1>Family DNA Health Reports</h1>
+    <p>Personal genetic analyses</p>
+
+    <div class="report-card">
+        <h3>Minko</h3>
+        <p>Latest report • July 2026</p>
+        <a href="narrative_Minko.html" class="report-link">View Report</a>
+    </div>
+
+    <div class="report-card">
+        <h3>Julian</h3>
+        <p>Report coming soon</p>
+        <a href="#" class="report-link" style="background:#94a3b8;">Not ready yet</a>
+    </div>
+
+    <div class="report-card">
+        <h3>Stayko</h3>
+        <p>Report coming soon</p>
+        <a href="#" class="report-link" style="background:#94a3b8;">Not ready yet</a>
+    </div>
+
 </body>
 </html>
